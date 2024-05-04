@@ -19,10 +19,92 @@ body {
 
 .container {
     max-width: 1140px;
-    background-color: aqua;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 
+}
+
+.logo > a > img {
+    margin-top: 5px;
+    width: 64px;
+    height: 64px;
+
+}
+
+.form {
+    display: flex;
+}
+
+
+#inpuText {
+    font-size: 16px;
+    padding: 7px 10px;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+
+.Btn {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.Btn > img {
+    font-size: 20px;
+    height: 20px;
+}
+
+.menu > img {
+    width: 25px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner {
+    display: flex;
+    background-image: url('../images/bg.jpg');
+    height: 670px;
+    margin: 20px;
+}
+
+.content-banner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+
+
+}
+
+.content-banner > div > h1 {
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 90px;
+    line-height: 140px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.content-banner > div > span {
+    font-size: 1.3rem;
+}
+
+
+.content-banner > div > img {
+    width: 148px;
+    height: 148px;
+    border: 10px solid #117050;
+    border-radius: 50%;
+    margin-top: 50px;
 }
