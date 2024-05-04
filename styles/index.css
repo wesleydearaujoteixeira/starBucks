@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+
+}
+
+.line {
+    background-color: #117050;
+    height: 10px;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
