@@ -1,1 +1,1 @@
-Landing page do StarBucs
+Landing page do StarBucks
